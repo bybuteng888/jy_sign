@@ -28,5 +28,5 @@ jobs:
       - name: '运行爱奇艺签到脚本'  
         run: python3 main.py 
         env:
-            iqiyi_cookie: ${{ secrets.iqiyi_cookie }}
+            jy_cookie: ${{ secrets.jy_cookie }}
             dingding: ${{ secrets.dingding }}
