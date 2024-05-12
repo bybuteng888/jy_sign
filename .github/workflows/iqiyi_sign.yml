@@ -29,4 +29,3 @@ jobs:
         run: python3 main.py 
         env:
             jy_cookie: ${{ secrets.jy_cookie }}
-            dingding: ${{ secrets.dingding }}
