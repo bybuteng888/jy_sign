@@ -22,10 +22,9 @@ data = {
     "todaysay": "",
     "qdxq": "fd"
 }
-
+     
 response = requests.post(URL, headers=headers, data=data)
 
 print(response.text)
-msg = f"\n[+]签到获得{growth}成长值\n[+]连续签到：{continueSignDaysSum}天\n[+]签到周期：{rouund_day}天/{rewardDay}天"
-return msg
+
 
