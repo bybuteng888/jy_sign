@@ -1,5 +1,5 @@
 
-
+import _iqiyi
 
 '''脚本入口'''
 def main():
