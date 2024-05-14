@@ -37,6 +37,7 @@ class aiqiyi:
             "qdxq": "fd"
         }
         response = requests.post(url, headers=headers, data=data).text
+        print(response)
         return response
 
 
