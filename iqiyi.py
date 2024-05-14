@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 # aiqiyi.py
-from iqiyi import aiqiyi
+
 import requests
 import os
 
