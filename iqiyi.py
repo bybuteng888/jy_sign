@@ -3,7 +3,7 @@
 import requests
 import os
 
-jy_cookie = os.environ["JY_COOKIE"]
+jy_cookie = os.environ["jy_cookie"]
 
 
 class aiqiyi:
