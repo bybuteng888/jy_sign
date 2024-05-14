@@ -1,5 +1,5 @@
 from iqiyi import aiqiyi
-from push import push
+
 
 '''脚本入口'''
 def main():
