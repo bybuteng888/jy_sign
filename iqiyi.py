@@ -27,7 +27,7 @@ data = {
     }
 response = requests.post(URL, headers=headers, data=data)
 
-if response.json()["credit"]== None
+if response.json()["credit"]!= None
     try:
                 msg = "签到成功"
     except:
