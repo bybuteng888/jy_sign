@@ -4,7 +4,6 @@ from iqiyi import aiqiyi
 def main():
     #创建任务对象
     _aiqiyi=aiqiyi()
-    contents=_aiqiyi.start()
     
 if __name__ == '__main__':
     main()
