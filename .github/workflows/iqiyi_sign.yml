@@ -26,6 +26,6 @@ jobs:
         run: pip install -r ./requirements.txt 
         
       - name: '运行爱奇艺签到脚本'  
-        run: python3 iqiyi.py 
+        run: python3 main.py 
         env:
             jy_cookie: ${{ secrets.jy_cookie }}
